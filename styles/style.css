@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: #fff;
+}
+.header__top{
+    font-family: 'Roboto', sans-serif;
+    max-width: 70%;
+    height: 75%;
+    margin: 13px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu{
+    margin-left: 10%;
+}
+.menu__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.list__item + .list__item{
+    margin-left: 40px;
+}
+.list__link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.list__link:hover{
+    color: #D23166;
+    font-weight: 700;
+}
+.button__buy{
+    color: #fff;
+    background-color: #D23166;
+    border: solid #D23166 1px;
+    border-radius: 5px;
+    padding: 13px 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.button__buy:hover{
+    cursor: pointer;
+}
